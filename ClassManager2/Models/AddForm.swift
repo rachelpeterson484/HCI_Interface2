@@ -70,7 +70,7 @@ struct AddForm: View {
                     Text("Due date: " + getDate())
                 }
                 .padding(.top, 20)
-                Button(action: {createNewAssignment(); isPresented = false; presentationMode.wrappedValue.dismiss()} ) {
+                Button(action: {createNewAssignment()} ) {
                     Text("Create new assignment")
                         .padding(.bottom, 3)
                 }

@@ -18,6 +18,7 @@ struct HomeworkView: View {
             .onChange(of: date) {
                 newValue in navigate = true
             }
+            .onTapGesture(count: 2, perform: doubleTap)
         
             List {
                 Text("Next Upcoming Assignment")
@@ -37,6 +38,10 @@ struct HomeworkView: View {
     func getUpcoming() -> Assignment {
         let upcomingHW = upcomingAssignment()
         return upcomingHW
+    }
+    
+    func doubleTap() -> Void {
+        self.navigate.toggle()
     }
     
 }
