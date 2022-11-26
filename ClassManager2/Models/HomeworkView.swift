@@ -38,4 +38,7 @@ struct HomeworkView: View {
         let upcomingHW = upcomingAssignment()
         return upcomingHW
     }
+    
 }
+
+

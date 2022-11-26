@@ -33,15 +33,17 @@ struct Assignment: Identifiable & Hashable & Equatable {
 extension Assignment {
     static var sampleData: [Assignment] =
     [
-        Assignment(name: "Project 1", dueYear: 2022, dueMonth: 10, dueDay: 21, theme: .poppy, className: "Math"),
-        Assignment(name: "Project 2", dueYear: 2022, dueMonth: 10, dueDay: 20, theme: .bubblegum, className: "Science"),
-        Assignment(name: "Homework 2", dueYear: 2022, dueMonth: 10, dueDay: 22, theme: .bubblegum, className: "Science"),
-        Assignment(name: "English Literature Paper", dueYear: 2022, dueMonth: 10, dueDay: 23, theme: .yellow, className: "English"),
-        Assignment(name: "Homework 3", dueYear: 2022, dueMonth: 10, dueDay: 23, theme: .poppy, className: "Science"),
-        Assignment(name: "Project 3", dueYear: 2022, dueMonth: 11, dueDay: 14, theme: .sky, className: "Science"),
-        Assignment(name: "Midterm", dueYear: 2022, dueMonth: 10, dueDay: 28, theme: .yellow, className: "English"),
-        Assignment(name: "Science Final", dueYear: 2022, dueMonth: 12, dueDay: 10, theme: .orange, className: "Science"),
-        Assignment(name: "Math Final", dueYear: 2022, dueMonth: 12, dueDay: 08, theme: .bubblegum, className: "Math")
+        Assignment(name: "Final Project", dueYear: 2022, dueMonth: 11, dueDay: 28, theme: .seafoam, className: "Math"),
+        Assignment(name: "Midterm Paper", dueYear: 2022, dueMonth: 11, dueDay: 29, theme: .buttercup, className: "History"),
+        Assignment(name: "Project 2", dueYear: 2022, dueMonth: 11, dueDay: 29, theme: .lavender, className: "Science"),
+        Assignment(name: "Homework 2", dueYear: 2022, dueMonth: 12, dueDay: 02, theme: .lavender, className: "Science"),
+        Assignment(name: "English Literature Paper", dueYear: 2022, dueMonth: 12, dueDay: 03, theme: .bubblegum, className: "English"),
+        Assignment(name: "Homework 3", dueYear: 2022, dueMonth: 12, dueDay: 03, theme: .lavender, className: "Science"),
+        Assignment(name: "Quiz 4", dueYear: 2022, dueMonth: 12, dueDay: 06, theme: .buttercup, className: "History"),
+        Assignment(name: "Midterm", dueYear: 2022, dueMonth: 12, dueDay: 07, theme: .bubblegum, className: "English"),
+        Assignment(name: "Project 3", dueYear: 2022, dueMonth: 12, dueDay: 02, theme: .lavender, className: "Science"),
+        Assignment(name: "Math Final", dueYear: 2022, dueMonth: 12, dueDay: 06, theme: .seafoam, className: "Math"),
+        Assignment(name: "Science Final", dueYear: 2022, dueMonth: 11, dueDay: 28, theme: .lavender, className: "Science")
     ]
 }
 
